@@ -1,0 +1,33 @@
+{
+  "name": "git-tips-data",
+  "version": "0.0.1",
+  "description": "Robot readable git tips data",
+  "main": "dist/Index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dderevjanik/git-tips-data.git"
+  },
+  "author": {
+    "name": "Daniel Derevjanik",
+    "email": "daniel.derevjanik@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dderevjanik/git-tips-data/issues"
+  },
+  "homepage": "https://github.com/dderevjanik/git-tips-data#readme",
+  "dependencies": {
+    "@types/node": "^9.4.0",
+    "@types/node-fetch": "^1.6.7",
+    "io-ts": "^0.9.7",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.10.2",
+    "typescript": "^2.7.1"
+  }
+}
